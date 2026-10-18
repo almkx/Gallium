@@ -1,5 +1,5 @@
-# How to use this ![Kanata](https://github.com/jtroo/kanata) config
-1. Download the ![Kanata release](https://github.com/jtroo/kanata/releases) binary for your system and rename it to "kanata".
+# How to use this [Kanata](https://github.com/jtroo/kanata) config
+1. Download the [Kanata release](https://github.com/jtroo/kanata/releases) binary for your system and rename it to "kanata".
 2. Grab Gallium.cfg and uncomment the version of Gallium you want the config to use.
 3. Test the config here with the release binary: `./kanata -c Gallium.cfg`.
 
