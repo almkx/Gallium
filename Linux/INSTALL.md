@@ -18,5 +18,6 @@ In cases where you cannot or do not want to edit the base filesystem, place your
 1. Inside your new directory, create a `symbols` folder
 2. Copy the contents of the provided `xkb` folder to it.
 3. Copy the `rules` folder into your directory. 
-4. You may have to log out or restart your machine to apply these changes.
-5. Please review the steps after step 4 in the previous section and edit the provided `evdev.xml` file as needed to make things work for your setup!
+4. The provided `evdev.xml` tags the layouts as English (`eng`) for the United States (`US`). GNOME Settings only lists a layout under your system language if both match your locale, so if your locale is not `en_US`, change `<iso3166Id>US</iso3166Id>` to your country code (for example `GB` for `en_GB`), and `<iso639Id>eng</iso639Id>` if your language is not English. Otherwise Gallium is listed under "Other".
+5. You may have to log out or restart your machine to apply these changes.
+6. Please review the steps after step 4 in the previous section and edit the provided `evdev.xml` file as needed to make things work for your setup!
